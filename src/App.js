@@ -1,10 +1,12 @@
 import './App.css';
 import Navbar from './Components/Navbar.mjs';
+import TextForm from './Components/TextForm';
 
 function App() {
   return (
     <>
-      <Navbar about="About Us" />
+      <Navbar />
+      <TextForm />
     </>
   );
 }
